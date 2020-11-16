@@ -1,0 +1,92 @@
+
+/* /////////////////////////////////////////////////////////////////////! */
+/*
+  @Author: Rio Berenos
+*/
+/* /////////////////////////////////////////////////////////////////////! */
+
+/* [DEFAULT DECORATION] */
+body {
+
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+
+}
+
+p {
+
+  font-size: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+button {
+
+  font-size: 18px;
+  font-family: Verdana, Geneva, sans-serif;
+
+}
+
+
+/* [NAVIGATION BAR] */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  box-sizing: border-box;
+
+}
+
+.navbar a:hover {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* [on panel] */
+.content {
+
+  background: white;
+  width: 50%;
+  padding: 40px;
+  margin: 100px auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+
+/* [BUTTONS] */
+.button {
+
+  color: white;
+  background-color: #4CAF50;
+  font-size: 18px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.buttonHOME {border-radius: 10px; background-color: #B20000;}
+.buttonCONFIRM {border-radius: 20px; background-color: #9C7709}
+.buttonSHOWMORE {border-radius: 20px; background-color: #063348;}
