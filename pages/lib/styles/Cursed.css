@@ -1,0 +1,61 @@
+
+/* /////////////////////////////////////////////////////////////////////! */
+/*
+  @Author: Rio Berenos
+*/
+/* /////////////////////////////////////////////////////////////////////! */
+
+/* [DEFAULT DECORATION] */
+body {
+  animation: 100ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: teal;
+  }
+  20% {
+    background-color: gold;
+  }
+  40% {
+    background-color: indianred;
+  }
+  60% {
+    background-color: violet;
+  }
+  80% {
+    background-color: green;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+
+p {
+  font-size: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button {
+  font-size: 18px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.toHome {
+  width: 90px;
+  height: 90px;
+  background-color: purple;
+}
+
+.toNext {
+  width: 90px;
+  height: 90px;
+  background-color: red;
+}
