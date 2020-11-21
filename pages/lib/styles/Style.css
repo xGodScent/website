@@ -15,6 +15,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: repeat-y;
+  overflow-x: hidden;
+  height: 5000px;
 }
 
 p {
@@ -175,11 +177,15 @@ button {
 
 
 /* [FANCY SHIT] */
-.beforeFade {
-   animation: fadeEffect 3s; /* fading effect takes 3s */
+header {
+  opacity: 0;
+  transition: opacity .5s .25s ease-out;
 }
 
-@keyframes fadeEffect { /* from 0 to full opacity */
-   from {opacity: 0;}
-   to {opacity: 1;}
+header.is-visible {
+  opacity: 1;
+}
+
+.heading {
+  transform: translate(-50%, calc(-50% + 1em));
 }
