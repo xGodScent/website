@@ -47,6 +47,7 @@ button {
   top: 0;
   width: 100%;
   position: fixed;
+  z-index: 9999;
 }
 
 .navbar a {
@@ -104,7 +105,6 @@ button {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   width: 25%;
-
 }
 
 
@@ -116,7 +116,7 @@ button {
   display: block;
   text-align: left;
   width: 100%;
-  transition: 1.25s;
+  transition: 0.75s;
 }
 
 .dropdown-content a:hover {
@@ -197,23 +197,16 @@ button {
 
 
 /* [FANCY SHIT] */
-header {
-  opacity: 0;
-  transition: opacity .5s .25s ease-out;
-}
-
-header.is-visible {
-  opacity: 1;
-}
-
-.heading {
-  transform: translate(-50%, calc(-50% + 1em));
-}
 
 
 .main {
   background-color: white;
-  margin: 55px 200px;
+  margin: 0px 200px;
 
   z-index: -1;
+}
+
+.f-font {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
