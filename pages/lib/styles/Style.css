@@ -60,6 +60,7 @@ button {
   box-sizing: border-box;
 
   width: 25%;
+  transition: 0.2s;
 
 }
 
@@ -73,6 +74,7 @@ button {
   float: left;
   overflow: hidden;
   width: 25%;
+  transition: 0.2s;
 }
 
 
@@ -86,6 +88,7 @@ button {
   font-family: inherit;
   margin: 0;
   width: 100%;
+  transition: 0.2s;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -101,7 +104,9 @@ button {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   width: 25%;
+
 }
+
 
 .dropdown-content a {
   float: none;
@@ -111,6 +116,7 @@ button {
   display: block;
   text-align: left;
   width: 100%;
+  transition: 1.25s;
 }
 
 .dropdown-content a:hover {
@@ -205,13 +211,9 @@ header.is-visible {
 }
 
 
-
-
 .main {
-
   background-color: white;
   margin: 55px 200px;
 
   z-index: -1;
-
 }
