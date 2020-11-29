@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap');
 
 /* [DEFAULT DECORATION] */
 body {
@@ -139,14 +139,18 @@ button {
   right: 0;
   z-index: -1;
 
+  color: black;
   display: block;
-  background-color: inherit;
-  background-image: url('../images/bg1.png');
+  background-color: white;
   background-size: cover;
   width: 10%;
   height: 100%;
 
-  filter: blur(200px);
+}
+
+.content {
+  background-color: white;
+  color: black;
 }
 
 .f-dosis {
