@@ -118,7 +118,8 @@ button {
 /* [on panel] */
 .content {
 
-  color: white;
+  background-color: white;
+  color: black;
 
   position: flex;
   overflow: auto;
@@ -146,11 +147,6 @@ button {
   width: 10%;
   height: 100%;
 
-}
-
-.content {
-  background-color: white;
-  color: black;
 }
 
 .f-dosis {
