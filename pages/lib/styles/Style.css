@@ -7,9 +7,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@800&display=swap');
 
 /* [DEFAULT DECORATION] */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("../images/bg1.png");
   background-size: cover;
@@ -40,6 +44,9 @@ button {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  top: 0;
+  width: 100%;
+  position: fixed;
 }
 
 .navbar a {
@@ -52,6 +59,8 @@ button {
   font-size: 20px;
   box-sizing: border-box;
 
+  width: 25%;
+
 }
 
 .navbar a.active {
@@ -63,6 +72,7 @@ button {
 .dropdown {
   float: left;
   overflow: hidden;
+  width: 25%;
 }
 
 .dropdown .dropbtn {
@@ -83,7 +93,7 @@ button {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #f2f2f2;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -128,7 +138,7 @@ button {
 
   left: 0;
   right: 0;
-  margin: 0px 50px;
+  margin: 0px 200px;
   z-index: 0;
 
 }
@@ -188,4 +198,16 @@ header.is-visible {
 
 .heading {
   transform: translate(-50%, calc(-50% + 1em));
+}
+
+
+
+
+.main {
+
+  background-color: white;
+  margin: 55px 200px;
+
+  z-index: -1;
+
 }
