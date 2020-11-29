@@ -33,6 +33,10 @@ button {
   font-family: Verdana, Geneva, sans-serif;
 }
 
+li{
+  margin: 10px 0;
+}
+
 .center {
   display: block;
   margin-left: auto;
