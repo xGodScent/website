@@ -228,18 +228,7 @@ h1 {
 
 .appear {
   left: 30px;
-  transition: 1.5s;
+  transition: .75s;
 }
 
 /* [ANIMATIONS WOOOz] */]
-img {
-  position: relative;
-  animation: slackinganim 2s infinite;
-}
-
-#slackinganimtime {animation-timing-function: ease;}
-
-@keyframes slackinganim {
-  from {left: 0px;}
-  to {left: 300px;}
-}
