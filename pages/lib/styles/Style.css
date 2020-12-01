@@ -164,7 +164,9 @@ h2 {
 
   left: 0;
   right: 0;
-  margin: 0px 200px;
+
+  /* TODO: margin changed from 200px to 100px (test change) */
+  margin: 0px 100px;
   z-index: 0;
 
 }
