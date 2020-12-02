@@ -8,7 +8,7 @@
 /* [DEFAULT DECORATION] */
 body {
   /* changed 1ms to 0ms for testing */
-  animation: 0ms ease-in-out infinite color-change;
+  animation: 1ms ease-in-out infinite color-change;
 }
 
 @keyframes color-change {
