@@ -166,7 +166,7 @@ h2 {
   right: 0;
 
   /* TODO: margin changed from 200px to 100px (test change) */
-  margin: 0px 100px;
+  margin: 0px 150px;
   z-index: 0;
 
 }
@@ -212,8 +212,6 @@ h2 {
 
 }
 
-
-
 /* [FANCY SHIT] */
 
 .main {
@@ -230,7 +228,6 @@ h2 {
 
 .comic {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-
 }
 
 .appear {
