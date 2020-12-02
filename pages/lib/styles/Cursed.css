@@ -7,7 +7,8 @@
 
 /* [DEFAULT DECORATION] */
 body {
-  animation: 1ms ease-in-out infinite color-change;
+  /* changed 1ms to 0ms for testing */
+  animation: 0ms ease-in-out infinite color-change;
 }
 
 @keyframes color-change {
@@ -49,11 +50,13 @@ button {
 }
 
 .toHome {
-  width: 90px;
-  height: 90px;
+  position: absolute;
+  width: 100px;
+  height: 70px;
   background-color: purple;
   font-size: 30px;
   font-family: 'Griffy', cursive;
+  animation: 1000ms ease-in-out infinite color-change;
 }
 
 .toNext {
